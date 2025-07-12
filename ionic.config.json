@@ -1,0 +1,7 @@
+{
+  "name": "component-showcase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
