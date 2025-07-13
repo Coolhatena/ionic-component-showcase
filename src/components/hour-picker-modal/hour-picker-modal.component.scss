@@ -1,0 +1,18 @@
+ion-datetime {
+  --background: var(--ion-color-bg);
+  color: var(--ion-color-txt);
+  border: solid 2px #b3b3b3;
+  border-radius: 10px;
+
+  --wheel-highlight-background: rgba(255, 128, 0, 0.2);
+  --wheel-item-color: black;
+  --wheel-item-font-size: 16px;
+  // --wheel-fade-background-rgb: 255, 255, 255;
+  --wheel-fade-background-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+	ion-datetime {
+		--wheel-fade-background-rgb: 30, 30, 30;
+	}
+}

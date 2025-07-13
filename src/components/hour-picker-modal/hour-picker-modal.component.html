@@ -1,0 +1,17 @@
+<ion-content class=" ion-padding">
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 60vh;">
+    <ion-datetime 
+		[class.light-theme]="!darkMode" 
+		[class.dark-theme]="darkMode" 
+		(ionChange)="changeDate($event)" 
+		[value]="value" 
+		locale="es-ES"
+		display-format="HH:mm"
+		picker-format="HH:mm"
+		hour-cycle="h23"
+		presentation="time"
+	></ion-datetime>
+
+    <ion-button expand="block" style="margin-top: 20px;" (click)="submit()">Aceptar</ion-button>
+  </div>
+</ion-content>
