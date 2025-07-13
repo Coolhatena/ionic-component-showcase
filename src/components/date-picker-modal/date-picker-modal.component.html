@@ -1,0 +1,14 @@
+<ion-content class=" ion-padding">
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 60vh;">
+    <ion-datetime
+		presentation="date"
+      	(ionChange)="changeDate($event)" 
+		[value]="value" 
+		[min]="minDate"
+  		[max]="maxDate"
+		locale="es-ES"
+	></ion-datetime>
+
+    <ion-button expand="block" style="margin-top: 20px;" (click)="submit()">Aceptar</ion-button>
+  </div>
+</ion-content>
